@@ -9,12 +9,13 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
-gem 'pg', '~> 1.18.1'
+gem 'pg','~>0.18'
 
-gem "pundit"
+#gem "pundit"
 gem 'devise'
-# Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'cancancan'
+gem 'rolify'
+gem 'puma', '~> 3.7'# Use Puma as the app server
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

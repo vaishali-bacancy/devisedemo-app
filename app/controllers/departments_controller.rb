@@ -1,5 +1,6 @@
 class DepartmentsController < ApplicationController
 	before_action :authenticate_user!, only: [:new,  :create]
+  load_and_authorize_resource except:[:index]
   def index
   	@departments = Department.all
   end

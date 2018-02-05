@@ -2,10 +2,9 @@ Rails.application.routes.draw do
  	
  	#get 'department#new', as: 'dept'
 
-
-	get '/departments/:id', to: 'departments#show', as: 'dept'
-
   root 'departments#new'
+  
+
 
   devise_for :users
 

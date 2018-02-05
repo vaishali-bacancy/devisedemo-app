@@ -4,13 +4,13 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: test1_dev
+  database: devisedemo_dev
 
 test:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: test1_test
+  database: devisedemo_test
 
 production:
   adapter: postgresql
