@@ -13,7 +13,10 @@ gem 'pg','~>0.18'
 
 #gem "pundit"
 gem 'devise'
-gem 'cancancan'
+
+gem 'jquery-rails'
+
+#gem 'cancancan'
 gem 'rolify'
 gem 'puma', '~> 3.7'# Use Puma as the app server
 # Use SCSS for stylesheets
