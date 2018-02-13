@@ -4,7 +4,7 @@ class UserMailer < ApplicationMailer
     @user = user
     @department = department
     mail(to: @user.email,
-         cc: ["mihir.kanzariya@bacancytechnology.com","vaishali.pitroda@bacancytechnology.com"])
+         cc: ["vaishalipitroda@hotmail.com","vaishali.pitroda@bacancytechnology.com"])
   end  
 end
 
